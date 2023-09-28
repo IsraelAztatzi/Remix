@@ -5,6 +5,6 @@
  */
 
 import { RemixBrowser } from "@remix-run/react";
-import { hydrake } from "react-dom";
+import { hydrate } from "react-dom";
 
 hydrate(<RemixBrowser />, document); 
